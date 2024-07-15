@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class database extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+    
     }
 
     @Override
