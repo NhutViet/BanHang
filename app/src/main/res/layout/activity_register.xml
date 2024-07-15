@@ -46,6 +46,19 @@
             android:inputType="numberPassword"
             android:layout_marginTop="24dp"/>
 
+        <EditText
+            android:id="@+id/edtRe_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:padding="10dp"
+            android:hint="Re_PassWord"
+            android:background="@drawable/boder"
+            android:textSize="24sp"
+            android:inputType="numberPassword"
+            android:layout_marginTop="24dp"/>
+
         <LinearLayout
             android:layout_marginTop="32dp"
             android:layout_width="match_parent"
@@ -54,16 +67,6 @@
 
 
 
-        <Button
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:textSize="24dp"
-            android:backgroundTint="#fff"
-            android:textColor="#000"
-            android:padding="10dp"
-           />
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -73,7 +76,17 @@
                 android:backgroundTint="#fff"
                 android:textColor="#000"
                 android:padding="10dp"
-               />
+                />
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bạck"
+                android:textSize="24dp"
+                android:backgroundTint="#fff"
+                android:textColor="#000"
+                android:padding="10dp"
+                />
         </LinearLayout>
 
 
